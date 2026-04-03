@@ -14,6 +14,8 @@ This repository exists so contributors can test the full automation loop in a sa
 
 The main `Gutslabs/adam` repository is not used for these auto-merge and auto-payout tests.
 
+This README pull request is also the live integration test for that flow.
+
 ## Current demo rules
 
 - Issue pricing still uses the configured low-cost OpenRouter model for triage.
