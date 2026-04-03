@@ -34,6 +34,16 @@ Wallet: 0x66479e12FD7524DEB1f14164b0006A8fDb022B1f
 
 `Fixes #...` links the PR to the priced issue. `Wallet: 0x...` tells AutoMaintainer where to send the payout after merge.
 
+## Quick contributor flow
+
+If you want to test Adam end to end on this repo:
+
+1. Open a new issue first so the bot can price it.
+2. Make a small change that clearly resolves that issue.
+3. Open a PR with both `Fixes #<issue>` and `Wallet: 0x...` in the body.
+4. Wait for Adam to review the PR and run the Bun smoke checks.
+5. If the PR is accepted, Adam merges it and pays the fixed demo bounty on Base Sepolia.
+
 ## Why there is a Bun test here
 
 This repository includes a tiny Bun smoke test on purpose. That gives the E2B sandbox a real `bun install` and `bun test` flow to run, even for documentation-only pull requests.
