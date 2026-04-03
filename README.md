@@ -47,3 +47,5 @@ If you want to test Adam end to end on this repo:
 ## Why there is a Bun test here
 
 This repository includes a tiny Bun smoke test on purpose. That gives the E2B sandbox a real `bun install` and `bun test` flow to run, even for documentation-only pull requests.
+
+Demo note: contributors should include both Fixes #<issue-number> and Wallet: 0x... in the PR body.
